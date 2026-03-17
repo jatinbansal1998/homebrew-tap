@@ -1,9 +1,9 @@
 class JenkinsCli < Formula
   desc "Minimal Jenkins CLI for listing jobs, triggering builds, and checking status"
   homepage "https://github.com/jatinbansal1998/jenkins-cli-ts"
-  url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.7.7/jenkins-cli"
-  version "0.7.7"
-  sha256 "6e46bd349c7774fa232be4ca3f920f280d3441189d3c448cda47481fe5a7242b"
+  url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.7.8/jenkins-cli"
+  version "0.7.8"
+  sha256 "c16605d3003a5e65d7dfcc6b3bb0c3ea83061ec743cdfb10c3d9ea96711eebc7"
 
   depends_on "oven-sh/bun/bun"
 
