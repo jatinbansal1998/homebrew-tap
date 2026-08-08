@@ -1,29 +1,29 @@
 class JenkinsCli < Formula
   desc "Minimal Jenkins CLI for listing jobs, triggering builds, and checking status"
   homepage "https://github.com/jatinbansal1998/jenkins-cli-ts"
-  version "0.8.7"
+  version "0.8.8"
 
   on_macos do
     on_arm do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.7/jenkins-cli-darwin-arm64.tar.gz"
-      sha256 "15752c01da7234589b6ff5ca790465f47f3a2ddfe317b50347aa42d1cad88a98"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.8/jenkins-cli-darwin-arm64.tar.gz"
+      sha256 "99b8a42caf62c9dcb5c4f9155c3d0bc32f71fb24e9ebc4881e79b89a70493118"
     end
 
     on_intel do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.7/jenkins-cli-darwin-x64.tar.gz"
-      sha256 "8f031c74d7dc9d2d3bd2b8361c5c571a6fe09aa6537dd27373c7518cec7c3320"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.8/jenkins-cli-darwin-x64.tar.gz"
+      sha256 "230f82d831f39f1b3ec58ad14045b09822c6e10697ef8551ab600ba0b3cbb69f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.7/jenkins-cli-linux-arm64.tar.gz"
-      sha256 "e1f4861e161a9771c99617151fb42c643581b097b68c8abe22e1d2d687dbf1a2"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.8/jenkins-cli-linux-arm64.tar.gz"
+      sha256 "f4076ac12072c4de6b22b13afc7b1491e14af9c89095d23ab3c7b9dcafaf9333"
     end
 
     on_intel do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.7/jenkins-cli-linux-x64.tar.gz"
-      sha256 "61a6e9862e5b73d530b88c366e05c5a6ad1380f26e13880dac14d2dd2e7592ab"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.8/jenkins-cli-linux-x64.tar.gz"
+      sha256 "4842bb42c17cc951b57d0455843d50a38e0756f6ad5f0282f1f51fe95207089d"
     end
   end
 
