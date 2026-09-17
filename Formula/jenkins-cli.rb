@@ -4,25 +4,25 @@ class JenkinsCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.15/jenkins-cli-darwin-arm64.tar.gz"
-      sha256 "3dbce5af9c41c1991243dd4b6a341f9c4e6c6a5211694a5c487189e416449655"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.16/jenkins-cli-darwin-arm64.tar.gz"
+      sha256 "28de3bb8abba71c172f9cde539cc3a2aefe487e230f653dd0cdbd3ded389f64f"
     end
 
     on_intel do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.15/jenkins-cli-darwin-x64.tar.gz"
-      sha256 "80b0c9cb2e380ee4fff09ea0e00a4a8ed0c9a4eedbb8d45393acefb9dfbc125b"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.16/jenkins-cli-darwin-x64.tar.gz"
+      sha256 "976ddcf0673500ac75f42a34c5247d249257abb1e11f56a636963a35a8f22761"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.15/jenkins-cli-linux-arm64.tar.gz"
-      sha256 "71184c7a701db945d9b94d78e9ebd93c5b050227a5fcb35dd936a2cca087b19d"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.16/jenkins-cli-linux-arm64.tar.gz"
+      sha256 "9d8b890c203cdd5a2d8f9c0eec725f8d9024df624d3e79c999ea255d12bce3dd"
     end
 
     on_intel do
-      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.15/jenkins-cli-linux-x64.tar.gz"
-      sha256 "2c61ab7e4a912fb7e75135087e04ce27149c697f02d3b172f0ec364eb6447056"
+      url "https://github.com/jatinbansal1998/jenkins-cli-ts/releases/download/v0.8.16/jenkins-cli-linux-x64.tar.gz"
+      sha256 "857ebf4e4628d4391fc6fe42b37ced62c61b288b374ae7d2711eef3261740ebd"
     end
   end
 
